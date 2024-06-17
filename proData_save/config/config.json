@@ -1,0 +1,76 @@
+{
+	"view_Zoom": {
+		"L": 0.8,
+		"R": 1.1
+	},
+	"menu_width_init": 155,
+	"menu_width": 170,
+	"min_win_L_width": 30,
+	"win_L_width": 364,
+	"win_L_how": true,
+	"win_L_name": "managing",
+	"win_R_name": null,
+	"view_L_now_ID": 2,
+	"view_R_now_ID": null,
+	"developer_mode": true,
+	"view_L_hide": true,
+	"win_where": {
+		"L_win_where": {
+			"x": 130,
+			"y": 27,
+			"height": 1413,
+			"width": 269
+		},
+		"R_win_where": {
+			"x": 404,
+			"y": 27,
+			"height": 1413,
+			"width": 238
+		}
+	},
+	"Lottery_src": [
+		{
+			"Folder": "ckmn_genshin_hty",
+			"Type": "local",
+			"ckmn_README": {
+				"name": "原神-ckmn",
+				"icon": "https://i2.hdslb.com/bfs/face/853c4a846793dfbdafd8f16a40d6d8065bdb7c6f.jpg@240w_240h_1c_1s_!web-avatar-search-videos.avif",
+				"About": "这是作者开发的原神抽卡包",
+				"author": "hty",
+				"version": "1.0.0",
+				"project_address": "https://github.com/HTY-DBYssssssssssssssssssssssssssssssssssssssssssssssss",
+				"update_address": "https://www.bilibili.com"
+			},
+			"ID": 1,
+			"URL": "http://localhost:21556"
+		},
+		{
+			"Folder": "ckmn_Lottery_test",
+			"Type": "local",
+			"ckmn_README": {
+				"name": "测试用 抽卡包",
+				"icon": "https://i0.hdslb.com/bfs/face/946b4fecc2ad094b809f8e275353e67f799ad9af.jpg@240w_240h_1c_1s_!web-avatar-nav.avif",
+				"About": "这是关于这个包的简要说明",
+				"author": "hty",
+				"version": "1.0.0",
+				"project_address": "https://github.com/HTY-DBY",
+				"update_address": "https://www.bilibili.com"
+			},
+			"ID": 2,
+			"URL": "http://localhost:21557"
+		}
+	],
+	"Analyse_src": [],
+	"your_language": "zh-CN",
+	"themeSet": "dark",
+	"winZoom": 0.75,
+	"win_L_menu_click": false,
+	"win_L_menu_how": "no_iframe",
+	"resizeWin": {
+		"x": 32,
+		"y": 0,
+		"width": 644,
+		"height": 1440
+	},
+	"fin_win_L_width": 364
+}

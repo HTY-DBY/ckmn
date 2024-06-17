@@ -1,0 +1,58 @@
+{
+  "name": "ckmn",
+  "cn_name": "抽卡模拟",
+  "version": "1.0.0",
+  "private": true,
+  "description": "抽卡模拟",
+  "author": "HTY <hty@hty.ink>",
+  "type": "commonjs",
+  "scripts": {
+    "build": "quasar build",
+    "lint": "eslint --ext .js,.vue ./",
+    "dev": "quasar dev",
+    "ele build": "chcp 65001 && quasar build -m electron",
+    "ele dev": "chcp 65001 &&  quasar dev -m electron",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.1.1",
+    "electron-store": "^8.1.0",
+    "fast-deep-equal": "^3.1.3",
+    "kill-port": "^2.0.1",
+    "mime": "^3.0.0"
+  },
+  "devDependencies": {
+    "@intlify/vue-i18n-loader": "^4.2.0",
+    "@quasar/app-vite": "^1.7.0",
+    "@quasar/cli": "^2.3.0",
+    "@quasar/extras": "^1.16.8",
+    "@types/mousetrap": "^1.6.15",
+    "autoprefixer": "^10.4.2",
+    "axios": "^1.6.2",
+    "babel-plugin-component": "^1.1.1",
+    "electron": "^27.1.2",
+    "electron-builder": "^24.6.4",
+    "element-plus": "^2.4.3",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.5.1",
+    "quasar": "^2.14.0",
+    "unplugin-auto-import": "^0.17.2",
+    "unplugin-vue-components": "^0.26.0",
+    "vue": "^3.3.9",
+    "vue-draggable-plus": "^0.2.7",
+    "vue-i18n": "next",
+    "vue-router": "^4.0.0"
+  },
+  "engines": {
+    "node": "^20 || ^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "productName": "ckmn",
+  "main": "index.js",
+  "license": "MIT"
+}

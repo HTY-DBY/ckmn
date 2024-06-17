@@ -1,0 +1,90 @@
+// app global css in SCSS form
+
+$global-font-size: 15px !important;
+$global-font-weight: 500;
+
+html {
+  --hty-bg: #e8e8e8;
+  background: rgb(253, 253, 253);
+  --hty-bg-1: #dfdfdf;
+  --hty-bg-2: #c54b3f;
+  font-size: $global-font-size;
+  font-weight: $global-font-weight;
+  overflow: hidden;
+  font-family: PingFang SC, HarmonyOS_Medium, Helvetica Neue, Microsoft YaHei, sans-serif;
+}
+
+html.dark {
+  /* 自定义深色背景颜色 */
+  --hty-bg: #161616;
+  --hty-bg-1: #383838;
+  --hty-bg-2: #c42b1c;
+}
+
+body {
+  //color: #000000;
+  font-size: $global-font-size;
+  font-weight: $global-font-weight;
+  overflow: hidden;
+  font-family: PingFang SC, HarmonyOS_Medium, Helvetica Neue, Microsoft YaHei, sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+body.body--dark {
+  color: #fff;
+  background: #000000;
+}
+
+
+#win {
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  background-color: #FFFAE8;
+  border-radius: 100px;
+  box-shadow: 8px 8px 10px grey;
+  -webkit-app-region: drag;
+}
+
+
+.q-item__section--avatar {
+  min-width: 0;
+}
+
+.el-switch__label * {
+  font-size: $global-font-size;
+}
+
+.q-card__section--vert {
+  padding: 6px;
+}
+
+.q-btn--outline:before {
+  border: 1.5px solid;
+  color: #47c4f1;
+}
+
+.q-expansion-item__content {
+  padding-left: 0 !important;
+}
+
+
+.q-tab__content {
+  padding-left: inherit;
+}
+
+.q-tabs--vertical .q-tab__indicator {
+  width: 4px;
+}
+
+.q-item__section--main {
+  flex: none !important;
+}
+
+.q-tabs {
+  transition: none;
+}
+
+
+
